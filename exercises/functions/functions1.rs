@@ -2,9 +2,13 @@
 //
 // Execute `rustlings hint functions1` or use the `hint` watch subcommand for a
 // hint.
+use std::process::exit;
 
-// I AM NOT DONE
 
 fn main() {
     call_me();
+}
+
+fn call_me(){
+    exit(0);
 }
